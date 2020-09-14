@@ -21,7 +21,7 @@ public class SaleSlip2 {
 		quantity.add(z);
 
 	}
-//Calculation of the sum of the salesreport 
+ //Calculation of the sum of the salesreport 
 	public String Total() {
 
 		double sum = 0;
