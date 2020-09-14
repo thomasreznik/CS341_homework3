@@ -129,7 +129,7 @@ public class MyApp2 {
 			}
 		});
 	}
-// Building the output screen
+//Building the output screen
 	public void buildOutput() {
 		recipt.insert_slip(itemt.getText(), Double.valueOf(costt.getText()), Integer.parseInt(quantityt.getText()));
 
