@@ -118,7 +118,7 @@ public class MyApp2 {
 		scrollPane_2.setViewportView(catalog);
 
 	}
-
+// Triggers buildOutput which is where all of building occurs
 	public void createEvents() {
 
 		btnBuild.addActionListener(new ActionListener() {
@@ -129,7 +129,7 @@ public class MyApp2 {
 			}
 		});
 	}
-
+// Building the output screen
 	public void buildOutput() {
 		recipt.insert_slip(itemt.getText(), Double.valueOf(costt.getText()), Integer.parseInt(quantityt.getText()));
 
