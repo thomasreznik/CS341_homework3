@@ -34,7 +34,7 @@ public class MyApp2 {
 			public void run() {
 				try {
 					MyApp2 window = new MyApp2();
-					window.frame.setVisible(true);
+					window.frame.setVisible(true) ;
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
