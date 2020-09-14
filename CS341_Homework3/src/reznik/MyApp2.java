@@ -47,7 +47,7 @@ public class MyApp2 {
 	 */
 
 	public MyApp2() {
-		initialize();
+	 	initialize();
 		createEvents();
 
 	}
