@@ -21,7 +21,7 @@ public class SaleSlip2 {
 		quantity.add(z);
 
 	}
- //Calculation of the sum of the salesreport 
+ //Calculation of the sum of the sales report 
 	public String Total() {
 
 		double sum = 0;
@@ -36,7 +36,7 @@ public class SaleSlip2 {
 		return endTotal;
 
 	}
-//  How the String gets displayed
+//How the String gets displayed
 	public String display() {
 		salestring = salestring + "Item: " + item.get(item.size() - 1) + "   Cost: " + cost.get(cost.size() - 1)
 				+ "   Quantity: " + quantity.get(quantity.size() - 1) + "\n";

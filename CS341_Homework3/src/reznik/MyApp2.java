@@ -13,7 +13,7 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
 public class MyApp2 {
-//
+	
 	public JFrame frame;
 	public JTextField itemt;
 	public JTextField costt;
