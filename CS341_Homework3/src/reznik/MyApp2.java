@@ -43,7 +43,7 @@ public class MyApp2 {
 	}
 
 	/**
-	 * Create the application.
+	 *Create the application.
 	 */
 
 	public MyApp2() {
